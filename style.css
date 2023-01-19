@@ -128,6 +128,7 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 *,
@@ -141,7 +142,7 @@ body {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0 auto;
-
+  box-sizing: border-box;
 }
 
 img {
@@ -248,7 +249,7 @@ img {
   width: 100vw;
   height: 765px;
   background: url(img/bg-preview.jpg) no-repeat center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .preview {
@@ -382,6 +383,9 @@ img {
 .steps__card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 247px;
+  height: 154px;
 }
 
 .steps__card-pic {
@@ -392,14 +396,19 @@ img {
   border-radius: 16px; */
 }
 
+/* .steps__cards-title {
+  display: flex;
+  margin: 0 auto;
+} */
+
 /* Steps styles end */
 
 /* Destinations styles start */
 
-.destinations__wrapper {
-  margin: 0 auto 80;
-  overflow-x: hidden;
+.destinations-wrapper {
+  margin: 0 auto;
   max-width: 1400px;
+  overflow-x: hidden;
   background-color: white;
 }
 
@@ -421,10 +430,10 @@ img {
 }
 
 .dots {
-display: flex;
-flex-direction: row;
-justify-content: center;
-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
 
 .dot {
