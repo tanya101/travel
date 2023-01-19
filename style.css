@@ -372,19 +372,14 @@ img {
   white-space: nowrap;
   margin-bottom: 30px;
 
-  font-family: 'Aleo';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  color: #0D606F;
+
 }
 
 .steps__card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 247px;
+  width: 317px;
   height: 154px;
 }
 
@@ -396,10 +391,15 @@ img {
   border-radius: 16px; */
 }
 
-/* .steps__cards-title {
-  display: flex;
-  margin: 0 auto;
-} */
+.steps__cards-title {
+  text-align: center;
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
 
 /* Steps styles end */
 
