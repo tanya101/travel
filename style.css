@@ -347,12 +347,12 @@ img {
   background: white;
   max-width: 1177px;
   height: 247px;
-  margin: 0 auto 95px;
+  margin: 40px auto 0;
 }
 
 .title {
   text-align: center;
-  margin: 0 auto 40px;
+  margin: 80px auto 0;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
@@ -367,7 +367,7 @@ img {
   justify-content: space-around;
   justify-items: center;
   white-space: nowrap;
-  margin-bottom: 30px;
+  margin: 40px auto 30px;
 
 
 }
@@ -418,13 +418,8 @@ img {
   justify-content: center;
   padding: 0px;
   gap: 0 60px;
-  margin-bottom: 24px;
+  margin: 46px auto -24px;
 }
-
-/* .destinations-card {
-  display: flex;
-  justify-content: center;
-} */
 
 .destinations-img {
   background: #FFFFFF;
@@ -437,8 +432,6 @@ img {
   position: relative;
   top: -82px;
   left: 15px;
-  /* left: calc(50% - 108px/2 - 331px);
-  top: calc(50% - 42px/2 + 339px); */
   z-index: 1;
   font-family: 'Red Hat Text';
   font-style: normal;
@@ -455,7 +448,7 @@ img {
   justify-content: center;
   gap: 10px;
   padding: 0;
-  margin-bottom: 40px;
+  margin: 0;
 }
 
 .dot {
@@ -473,7 +466,7 @@ img {
   align-items: center;
   white-space: nowrap;
   padding: 10px 32px;
-  margin: 0 auto 80px;
+  margin: 40px auto 0;
   border: 0;
 
   width: 228px;
@@ -495,26 +488,30 @@ img {
 
 /* Stories styles start */
 
-/* .stories {
+.stories {
   background: rgba(255, 255, 255, 0.7);
+  width: 100vw;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
 }
 
-.stories-bg {
+.stories-wrapper {
   width: 100vw;
+  margin-top: 40px;
+  padding: 40px;
   background: url(img/Rectangle\ 33.jpg) no-repeat center;
-
-  height: 765px;
   background-size: cover;
-} */
+  position: relative;
+  z-index: 0;
+}
 
 .story-item {
-  margin-top: 80px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   gap: 40px;
-  /* justify-items: start;
-  align-items: start; */
+  margin-bottom: 30px;
 }
 
 .story-img {
@@ -553,4 +550,33 @@ img {
   color: #0D606F;
 }
 
-/* Stories styles end
+/* Stories styles end */
+
+/* Footer styles start */
+
+.footer-wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #000;
+}
+
+.footer-invisible {
+  display: block;
+  width: 190px;
+}
+
+.footer-info {
+  font-family: 'Red Hat Text';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+}
+
+/* .footer-ico {
+  background: #F8F8F8;
+} */
