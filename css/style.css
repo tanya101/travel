@@ -4,9 +4,9 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-    url('fonts/aleo-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/aleo-v11-latin-regular.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('fonts/aleo-v11-latin-regular.woff') format('woff');
+    url('../fonts/aleo-v11-latin-regular.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -16,9 +16,9 @@
   font-style: italic;
   font-weight: 400;
   src: local(''),
-    url('fonts/aleo-v11-latin-italic.woff2') format('woff2'),
+    url('../fonts/aleo-v11-latin-italic.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('fonts/aleo-v11-latin-italic.woff') format('woff');
+    url('../fonts/aleo-v11-latin-italic.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -28,9 +28,9 @@
   font-style: normal;
   font-weight: 700;
   src: local(''),
-    url('fonts/aleo-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/aleo-v11-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('fonts/aleo-v11-latin-700.woff') format('woff');
+    url('../fonts/aleo-v11-latin-700.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -40,9 +40,9 @@
   font-style: italic;
   font-weight: 700;
   src: local(''),
-    url('fonts/aab2955ecf0ce2f3f6b50ab42f4b74ca.woff2') format('woff2'),
+    url('../fonts/aab2955ecf0ce2f3f6b50ab42f4b74ca.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('fonts/aab2955ecf0ce2f3f6b50ab42f4b74ca.woff') format('woff');
+    url('../fonts/aab2955ecf0ce2f3f6b50ab42f4b74ca.woff') format('woff');
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
@@ -51,18 +51,18 @@
   font-family: 'Magra';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/magra-v14-latin-regular.eot');
+  src: url('../fonts/magra-v14-latin-regular.eot');
   /* IE9 Compat Modes */
   src: local(''),
-    url('fonts/magra-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/magra-v14-latin-regular.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('fonts/magra-v14-latin-regular.woff2') format('woff2'),
+    url('../fonts/magra-v14-latin-regular.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('fonts/magra-v14-latin-regular.woff') format('woff'),
+    url('../fonts/magra-v14-latin-regular.woff') format('woff'),
     /* Modern Browsers */
-    url('fonts/magra-v14-latin-regular.ttf') format('truetype'),
+    url('../fonts/magra-v14-latin-regular.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('fonts/magra-v14-latin-regular.svg#Magra') format('svg');
+    url('../fonts/magra-v14-latin-regular.svg#Magra') format('svg');
   /* Legacy iOS */
 }
 
@@ -71,18 +71,18 @@
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/red-hat-text-v11-latin-regular.eot');
+  src: url('../fonts/red-hat-text-v11-latin-regular.eot');
   /* IE9 Compat Modes */
   src: local(''),
-    url('fonts/red-hat-text-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/red-hat-text-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('fonts/red-hat-text-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/red-hat-text-v11-latin-regular.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-regular.woff') format('woff'),
+    url('../fonts/red-hat-text-v11-latin-regular.woff') format('woff'),
     /* Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-regular.ttf') format('truetype'),
+    url('../fonts/red-hat-text-v11-latin-regular.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('fonts/red-hat-text-v11-latin-regular.svg#RedHatText') format('svg');
+    url('../fonts/red-hat-text-v11-latin-regular.svg#RedHatText') format('svg');
   /* Legacy iOS */
 }
 
@@ -91,18 +91,18 @@
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
-  src: url('fonts/red-hat-text-v11-latin-500.eot');
+  src: url('../fonts/red-hat-text-v11-latin-500.eot');
   /* IE9 Compat Modes */
   src: local(''),
-    url('fonts/red-hat-text-v11-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/red-hat-text-v11-latin-500.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('fonts/red-hat-text-v11-latin-500.woff2') format('woff2'),
+    url('../fonts/red-hat-text-v11-latin-500.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-500.woff') format('woff'),
+    url('../fonts/red-hat-text-v11-latin-500.woff') format('woff'),
     /* Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-500.ttf') format('truetype'),
+    url('../fonts/red-hat-text-v11-latin-500.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('fonts/red-hat-text-v11-latin-500.svg#RedHatText') format('svg');
+    url('../fonts/red-hat-text-v11-latin-500.svg#RedHatText') format('svg');
   /* Legacy iOS */
 }
 
@@ -111,24 +111,19 @@
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 700;
-  src: url('fonts/red-hat-text-v11-latin-700.eot');
+  src: url('../fonts/red-hat-text-v11-latin-700.eot');
   /* IE9 Compat Modes */
   src: local(''),
-    url('fonts/red-hat-text-v11-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/red-hat-text-v11-latin-700.eot?#iefix') format('embedded-opentype'),
     /* IE6-IE8 */
-    url('fonts/red-hat-text-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/red-hat-text-v11-latin-700.woff2') format('woff2'),
     /* Super Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-700.woff') format('woff'),
+    url('../fonts/red-hat-text-v11-latin-700.woff') format('woff'),
     /* Modern Browsers */
-    url('fonts/red-hat-text-v11-latin-700.ttf') format('truetype'),
+    url('../fonts/red-hat-text-v11-latin-700.ttf') format('truetype'),
     /* Safari, Android, iOS */
-    url('fonts/red-hat-text-v11-latin-700.svg#RedHatText') format('svg');
+    url('../fonts/red-hat-text-v11-latin-700.svg#RedHatText') format('svg');
   /* Legacy iOS */
-}
-
-html {
-  box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 *,
@@ -143,6 +138,7 @@ body {
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 img {
@@ -153,20 +149,21 @@ img {
 /* Header styles start */
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 84vw;
+  box-sizing: content-box;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .header {
+  position: fixed;
+  z-index: 1;
   width: 100vw;
-  height: 90px;
+  height: clamp(60px, 6.25vw, 90px);
   left: 0px;
   top: 0px;
 
   display: flex;
   align-items: center;
-  margin-bottom: 32px;
   background: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
 }
@@ -174,11 +171,9 @@ img {
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1200px;
-  margin: 0;
+  width: 84vw;
 }
 
 .header__logo {
@@ -190,7 +185,7 @@ img {
   font-family: 'Magra';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 2.22vw;
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -198,49 +193,44 @@ img {
 .nav-list {
   display: flex;
   flex-direction: row;
-  padding: 0px;
-  gap: 42px;
-  width: 527px;
-  height: 21px;
-  top: 35px;
+  flex-wrap: wrap;
+  gap: 2.92vw;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
-  width: 98px;
-  height: 21px;
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
+  font-size: clamp(16px, 1.11vw, 20px);
   text-decoration: none;
+  color: #FFFFFF;
 }
 
 .nav-item {
   list-style-type: none;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 .header__button {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 
-  gap: 10px;
-  width: 103px;
-  height: 41px;
-  top: 25px;
+  padding: 0.7vw 2.1vw;
   background: #0D606F;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
-  border-radius: 10px;
+  border-radius: clamp(5px, 0.7vw,10px);
   border: 0;
 
   font-family: 'Red Hat Text';
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: clamp(16px, 1.11vw, 20px);
   color: #FFFFFF;
 }
 
@@ -248,20 +238,19 @@ img {
 
 /* Preview styles start */
 
-.bg {
+.preview {
   width: 100vw;
-  height: 765px;
-  background: url(img/bg-preview.jpg) no-repeat center;
+  height: 100vh;
+  margin-bottom: 303px;
+  background: url(../img/bg-preview.jpg) no-repeat center;
   background-size: cover;
   margin-bottom: 80px;
+  padding-top: 122px;
 }
 
-.preview {
-  width: 892px;
-  height: 422px;
-  left: 120px;
-  top: 122px;
-  margin-bottom: 303px;
+.preview__info {
+  width: clamp(360px, 75%, 1000px);
+  margin: 0 auto 0 0;
 }
 
 .preview__title {
@@ -365,21 +354,20 @@ img {
 
 .steps__cards {
   display: flex;
-  gap: 0 231px;
+  flex-wrap: wrap;
+  /* gap: 0 231px; */
   justify-content: space-around;
   justify-items: center;
   white-space: nowrap;
   margin: 40px auto 30px;
-
-
 }
 
 .steps__card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 317px;
-  height: 154px;
+  /* width: 317px;
+  height: 154px; */
 }
 
 .steps__card-pic {
@@ -502,7 +490,7 @@ img {
   width: 100vw;
   /* margin-top: 40px; */
   padding-bottom: 60px;
-  background: url(img/Rectangle\ 33.jpg) no-repeat center;
+  background: url(../img/Rectangle\ 33.jpg) no-repeat center;
   background-size: cover;
   z-index: -2;
 }

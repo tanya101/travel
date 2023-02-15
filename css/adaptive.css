@@ -1,0 +1,40 @@
+/* Landscape tablets and medium desktops: < 1025px */
+
+@media (max-width: 1025px) {
+  .wrapper {
+    max-width: 93vw;
+  }
+
+  .header__wrapper {
+    width: 93vw;
+  }
+}
+
+/* Landscape phones and portrait tablets: < 769px */
+
+@media (max-width: 769px) {
+
+  .header__logo-text,
+  .nav,
+  .header__button {
+    display: none;
+  }
+
+  .header {
+    box-shadow: none;
+    background: none;
+  }
+
+  .preview {
+    background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25%),
+    url(../img/bg-preview.jpg) no-repeat center;
+    max-width: 100%;
+    max-height: auto;
+  }
+
+  .header__wrapper {
+    margin-top: 45px;
+  }
+}
+
+/* Portrait phones: < 480px */

@@ -6,49 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explore the beauty of the World</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="adaptive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive.css">
   <link rel="icon" href="img/favicon_black.svg">
 </head>
 
 <body>
 
   <!-- Header start -->
-  <div class=bg>
-    <header class="header">
-      <div class="wrapper">
+  <header class="header">
+    <div class="wrapper">
 
-        <div class="header__wrapper">
-          <div class="header__logo">
-            <a href="/" class="header__logo-link">
-              <img src="img/favicon.svg" alt="Explore the beauty of the World" class="header__logo-pic">
-            </a>
-            <a href="/" class="header__logo-text"> Travel Portal</a>
-          </div>
-
-          <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a href="#1" class="nav-link">How It Works</a></li>
-              <li class="nav-item"><a href="#2" class="nav-link">Plan Your Trip</a></li>
-              <li class="nav-item"><a href="#3" class="nav-link">Destinations</a></li>
-              <li class="nav-item"><a href="#4" class="nav-link">Travel Stories</a></li>
-            </ul>
-          </nav>
-
-          <form>
-            <button class="header__button">Login</button>
-          </form>
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a href="#preview" class="header__logo-link">
+            <img src="img/favicon.svg" alt="Explore the beauty of the World" class="header__logo-pic">
+          </a>
+          <a href="#preview" class="header__logo-text">&nbsp;Travel Portal</a>
         </div>
 
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#preview">How It Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="#steps">Plan Your Trip</a></li>
+            <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+            <li class="nav-item"><a class="nav-link" href="#stories">Travel Stories</a></li>
+          </ul>
+        </nav>
+
+        <form>
+          <button class="header__button">Login</button>
+        </form>
       </div>
-    </header>
-    <!-- Header end -->
 
-    <main class="main">
+    </div>
+  </header>
+  <!-- Header end -->
 
-      <!-- Preview start -->
+  <main class="main">
+
+    <!-- Preview start -->
+    <section class="preview" id="preview">
       <div class="wrapper">
-        <section class="preview">
+        <div class="preview__info">
           <h1 class="preview__title">Explore the beauty of the World</h1>
           <div class="preview__subtitle">
             Receive personalized recommendations for countries, hotels, activities and more
@@ -58,147 +58,149 @@
               placeholder="What would you like to do?">
             <button type="submit" class="search-form__submit">Start Planning</button>
           </form>
-        </section>
+        </div>
       </div>
-  </div>
-  <!-- Preview end -->
+    </section>
 
-  <!-- Steps start -->
-  <section class="steps">
-    <div class="wrapper">
+    <!-- Preview end -->
 
-      <h2 class="title">3 STEPS TO THE PERFECT TRIP</h2>
+    <!-- Steps start -->
+    <section class="steps" id="steps">
+      <div class="wrapper">
 
-      <ul class="steps__cards">
-        <li class="steps__card">
-          <img class="steps__card-pic" src="img/bike-ico.svg" alt="Tell us what you want to do">
-          <h3 class="steps__cards-title">Tell us what you want to do</h3>
-        </li>
-        <li class="steps__card">
-          <img class="steps__card-pic" src="img/calendar-ico.svg" alt="Share us preferable dates">
-          <h3 class="steps__cards-title">Share us preferable dates</h3>
-        </li>
-        <li class="steps__card">
-          <img class="steps__card-pic" src="img/plane-ico.svg" alt="We will give you recommendations">
-          <h3 class="steps__cards-title">We will give you recommendations</h3>
-        </li>
-      </ul>
+        <h2 class="title">3 STEPS TO THE PERFECT TRIP</h2>
 
-    </div>
-  </section>
-  <!-- Steps end -->
+        <ul class="steps__cards">
+          <li class="steps__card">
+            <img class="steps__card-pic" src="img/bike-ico.svg" alt="Tell us what you want to do">
+            <h3 class="steps__cards-title">Tell us what you want to do</h3>
+          </li>
+          <li class="steps__card">
+            <img class="steps__card-pic" src="img/calendar-ico.svg" alt="Share us preferable dates">
+            <h3 class="steps__cards-title">Share us preferable dates</h3>
+          </li>
+          <li class="steps__card">
+            <img class="steps__card-pic" src="img/plane-ico.svg" alt="We will give you recommendations">
+            <h3 class="steps__cards-title">We will give you recommendations</h3>
+          </li>
+        </ul>
 
-  <!-- Destinations start -->
-  <section class="destinations">
-    <div class="destinations-wrapper">
+      </div>
+    </section>
+    <!-- Steps end -->
 
-      <h2 class="title">POPULAR DESTINATIONS</h2>
+    <!-- Destinations start -->
+    <section class="destinations" id="destinations">
+      <div class="destinations-wrapper">
 
-      <ul class="destinations-cards">
-        <li class="destinations-card">
-          <img class="destinations-img" src="img/Spain.jpg" alt="Spain">
-          <span class="destinations-card-title">SPAIN</span>
-        </li>
-        <li class="destinations-card">
-          <img class="destinations-img" src="img/Japan.jpg" alt="Japan">
-          <span class="destinations-card-title">JAPAN</span>
-        </li>
-        <li class="destinations-card">
-          <img class="destinations-img" src="img/USA.jpg" alt="USA">
-          <span class="destinations-card-title">USA</span>
-        </li>
-      </ul>
+        <h2 class="title">POPULAR DESTINATIONS</h2>
 
-      <ul class="dots">
-        <li class="dot"></li>
-        <li class="dot"></li>
-        <li class="dot"></li>
-      </ul>
+        <ul class="destinations-cards">
+          <li class="destinations-card">
+            <img class="destinations-img" src="img/Spain.jpg" alt="Spain">
+            <span class="destinations-card-title">SPAIN</span>
+          </li>
+          <li class="destinations-card">
+            <img class="destinations-img" src="img/Japan.jpg" alt="Japan">
+            <span class="destinations-card-title">JAPAN</span>
+          </li>
+          <li class="destinations-card">
+            <img class="destinations-img" src="img/USA.jpg" alt="USA">
+            <span class="destinations-card-title">USA</span>
+          </li>
+        </ul>
 
-      <button type="button" class="button-info"><img src='img/arrow.svg' height="22.5px" width="35px">&nbsp;&nbsp;Find
-        More</button>
+        <ul class="dots">
+          <li class="dot"></li>
+          <li class="dot"></li>
+          <li class="dot"></li>
+        </ul>
 
-    </div>
-  </section>
-  <!-- Destinations end -->
-
-  <!-- Stories start -->
-
-  <section class="stories">
-
-    <h2 class="title">TRAVEL STORIES</h2>
-
-    <div class="stories-wrapper">
-
-      <ul class="stories-list">
-        <li class="story-item">
-          <img class="story-img" src="img/Rectangle 29.jpg" alt="Thailand">
-          <div class="story-info">
-            <h4 class="story-title">10 Photos of Attractive Thailand</h4>
-            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt
-              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
-              <a href="javascript:void(0);" class="story-link">Read More</a>
-            </p>
-          </div>
-        </li>
-        <li class="story-item">
-          <img class="story-img" src="img/Rectangle 30.jpg" alt="Utah">
-          <div class="story-info">
-            <h4 class="story-title">Canyonlands National Park, Utah</h4>
-            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt
-              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
-              <a href="javascript:void(0);" class="story-link">Read More</a>
-            </p>
-          </div>
-        </li>
-        <li class="story-item">
-          <img class="story-img" src="img/Rectangle 31.jpg" alt="Mountains">
-          <div class="story-info">
-            <h4 class="story-title">I left my heart in the Mountains!</h4>
-            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt
-              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
-              <a href="javascript:void(0);" class="story-link">Read More</a>
-            </p>
-          </div>
-        </li>
-        <li class="story-item">
-          <img class="story-img" src="img/Rectangle 32.jpg" alt="Longest">
-          <div class="story-info">
-            <h4 class="story-title">The Longest journey in my life!</h4>
-            <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex
-              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-              deserunt
-              mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
-              <a href="javascript:void(0);" class="story-link">Read More</a>
-            </p>
-          </div>
-        </li>
-        <button type="button" class="button-info"><img src='img/arrow.svg' height="22.5px" width="35px">&nbsp;&nbsp;See
+        <button type="button" class="button-info"><img src='img/arrow.svg' height="22.5px" width="35px">&nbsp;&nbsp;Find
           More</button>
-      </ul>
 
-    </div>
-  </section>
+      </div>
+    </section>
+    <!-- Destinations end -->
 
-  <!-- Stories end -->
+    <!-- Stories start -->
+
+    <section class="stories" id="stories">
+
+      <h2 class="title">TRAVEL STORIES</h2>
+
+      <div class="stories-wrapper">
+
+        <ul class="stories-list">
+          <li class="story-item">
+            <img class="story-img" src="img/Rectangle 29.jpg" alt="Thailand">
+            <div class="story-info">
+              <h4 class="story-title">10 Photos of Attractive Thailand</h4>
+              <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                <a href="javascript:void(0);" class="story-link">Read More</a>
+              </p>
+            </div>
+          </li>
+          <li class="story-item">
+            <img class="story-img" src="img/Rectangle 30.jpg" alt="Utah">
+            <div class="story-info">
+              <h4 class="story-title">Canyonlands National Park, Utah</h4>
+              <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                <a href="javascript:void(0);" class="story-link">Read More</a>
+              </p>
+            </div>
+          </li>
+          <li class="story-item">
+            <img class="story-img" src="img/Rectangle 31.jpg" alt="Mountains">
+            <div class="story-info">
+              <h4 class="story-title">I left my heart in the Mountains!</h4>
+              <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                <a href="javascript:void(0);" class="story-link">Read More</a>
+              </p>
+            </div>
+          </li>
+          <li class="story-item">
+            <img class="story-img" src="img/Rectangle 32.jpg" alt="Longest">
+            <div class="story-info">
+              <h4 class="story-title">The Longest journey in my life!</h4>
+              <p class="story-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br>
+                <a href="javascript:void(0);" class="story-link">Read More</a>
+              </p>
+            </div>
+          </li>
+          <button type="button" class="button-info"><img src='img/arrow.svg' height="22.5px"
+              width="35px">&nbsp;&nbsp;See
+            More</button>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- Stories end -->
 
   </main>
 
@@ -218,6 +220,7 @@
 
   <!-- Footer end -->
 
+  <script src="js/script.js"></script>
 </body>
 
 </html>
